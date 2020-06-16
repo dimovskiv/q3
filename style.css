@@ -32,7 +32,7 @@ body, html {
 
 .masthead {
   height: 100%;
-  background-image: url("bg.png");
+  background-image: url("bgbig.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -570,7 +570,7 @@ body, html {
     margin: 15px;
   }
   .masthead {
-    background-image: url("bg.png");
+    background-image: url("bgbig.jpg");
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
