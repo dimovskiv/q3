@@ -1,5 +1,5 @@
 body {
-    background-color:#222222;
+    background-color:whitesmoke;
     padding:20px;
     font-family: 'Anton';
 }
@@ -19,12 +19,12 @@ body, html {
     position:fixed;
     width:100%;
 
-    background-color:whitesmoke !important;
+    background-color:#222222 !important;
     z-index:99;
   
 
     a {
-        color:black !important;
+        color:white !important;
     }
 
     .navbar-toggler-icon {
@@ -36,7 +36,7 @@ body, html {
 
 .masthead {
     height:100%;
-    background-image: url("bgbig.jpg");
+    background-image: url("bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -161,9 +161,10 @@ body, html {
 
 .game {
     
-    background-color:#222222;
+    background-color:whitesmoke;
+
     p {
-        color:white;
+        color:black;
     }
 
     display:flex;
@@ -219,9 +220,9 @@ body, html {
     position:fixed;
     bottom:0;
     width:100%;
-    background-color:#222222;
+    background-color:black;
 
-    height:200px;
+    height:200px;   
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -270,14 +271,14 @@ body, html {
 
     a {
         font-size:22px;
-        color:white;
+        color:black;
         opacity:0.8;
     }
 }
 
 .footer {
-    background-color:#222222;
-    color:white;
+    background-color:whitesmoke;
+    color:black;
     display:flex;
     flex-direction:column;
    
@@ -310,8 +311,8 @@ body, html {
     padding-top:7rem !important;
     
     a {
-        color:whitesmoke;
-        background:	#222222;
+        color:black;
+        background:	whitesmoke;
         padding:10px;
         border-radius: 30px;
     }
@@ -324,23 +325,23 @@ body, html {
         .item {
         ul {
             text-align: left;
-            color:whitesmoke;
+            color:black;
             opacity:0.8;
             padding:2rem;
         }
         p {
             text-align:left;
             opacity:0.8;
-            color:whitesmoke;
+            color:black;
         }
 
         h1 {
              opacity:0.8;
-             color:whitesmoke;
+             color:black;
         }
 
         hr {
-            color:whitesmoke;
+            color:black;
         }
 
         li {
@@ -410,8 +411,12 @@ body, html {
 
     .item {
         width:100%;
-        margin:10px;
 
+        .img-fluid {
+            width:100%;
+        }
+        
+        
     }
 }
 
@@ -450,25 +455,20 @@ body, html {
     
     .slots {
         padding-top:4rem;
+        flex-direction:row;
    
         
         .item {
-            width:20%;
+            width:19%;
             opacity:0.7;
-            margin:50px;
+     
 
             
-            .img-fluid {
-                width:98%;
-                height:600px;
-                
-
-            }
-    
+        
         }
 
         .i1 {
-            margin-bottom:15px;
+            margin-bottom:10px;
            
         }
     }
@@ -482,7 +482,7 @@ body, html {
     }
 
     .masthead {
-        background-image: url("bgbig.jpg");
+        background-image: url("bg.png");
 
         justify-content: flex-start;
         
@@ -540,8 +540,8 @@ body, html {
     .framegames {
         .item {
             margin-top:2rem !important;
-            width:300px;
-            margin:50px;
+            width:25%;
+            margin:10px;
         }
 
         display:flex;
@@ -639,6 +639,8 @@ body, html {
      padding:3rem;
      background-image:url("slot.jpg")!important;
      background:none;
+     background-size:cover;
+     background-position:center;
      background-repeat: repeat-y;
      display:flex;
      flex-direction:row;
@@ -693,12 +695,12 @@ body, html {
  
 
  .navbar {
-     background-color:whitesmoke !important;
+     background-color:#222222 !important;
      z-index: 99;
      .nav-item {
          a {
              font-size:30px;
-             color:black important;
+             color:white !important;
              opacity:0.6;
          }
          margin:10px;

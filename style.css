@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
 body {
-  background-color: #222222;
+  background-color: whitesmoke;
   padding: 20px;
   font-family: 'Anton';
 }
@@ -18,12 +18,12 @@ body, html {
 .navbar {
   position: fixed;
   width: 100%;
-  background-color: whitesmoke !important;
+  background-color: #222222 !important;
   z-index: 99;
 }
 
 .navbar a {
-  color: black !important;
+  color: white !important;
 }
 
 .navbar .navbar-toggler-icon {
@@ -32,7 +32,7 @@ body, html {
 
 .masthead {
   height: 100%;
-  background-image: url("bgbig.jpg");
+  background-image: url("bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -187,7 +187,7 @@ body, html {
 }
 
 .game {
-  background-color: #222222;
+  background-color: whitesmoke;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,7 +204,7 @@ body, html {
 }
 
 .game p {
-  color: white;
+  color: black;
 }
 
 .game .item {
@@ -263,7 +263,7 @@ body, html {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #222222;
+  background-color: black;
   height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -330,13 +330,13 @@ body, html {
 
 .terms a {
   font-size: 22px;
-  color: white;
+  color: black;
   opacity: 0.8;
 }
 
 .footer {
-  background-color: #222222;
-  color: white;
+  background-color: whitesmoke;
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -389,15 +389,15 @@ body, html {
 }
 
 .termsC a {
-  color: whitesmoke;
-  background: #222222;
+  color: black;
+  background: whitesmoke;
   padding: 10px;
   border-radius: 30px;
 }
 
 .termsC .item ul {
   text-align: left;
-  color: whitesmoke;
+  color: black;
   opacity: 0.8;
   padding: 2rem;
 }
@@ -405,16 +405,16 @@ body, html {
 .termsC .item p {
   text-align: left;
   opacity: 0.8;
-  color: whitesmoke;
+  color: black;
 }
 
 .termsC .item h1 {
   opacity: 0.8;
-  color: whitesmoke;
+  color: black;
 }
 
 .termsC .item hr {
-  color: whitesmoke;
+  color: black;
 }
 
 .termsC .item li {
@@ -502,7 +502,10 @@ body, html {
 
 .slots .item {
   width: 100%;
-  margin: 10px;
+}
+
+.slots .item .img-fluid {
+  width: 100%;
 }
 
 #netentgame {
@@ -542,18 +545,17 @@ body, html {
 @media only screen and (min-width: 992px) {
   .slots {
     padding-top: 4rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .slots .item {
-    width: 20%;
+    width: 19%;
     opacity: 0.7;
-    margin: 50px;
-  }
-  .slots .item .img-fluid {
-    width: 98%;
-    height: 600px;
   }
   .slots .i1 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .terms {
     -webkit-box-orient: horizontal;
@@ -568,7 +570,7 @@ body, html {
     margin: 15px;
   }
   .masthead {
-    background-image: url("bgbig.jpg");
+    background-image: url("bg.png");
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -635,8 +637,8 @@ body, html {
   }
   .framegames .item {
     margin-top: 2rem !important;
-    width: 300px;
-    margin: 50px;
+    width: 25%;
+    margin: 10px;
   }
   .aboutUsDesk {
     display: -webkit-box !important;
@@ -710,6 +712,8 @@ body, html {
     padding: 3rem;
     background-image: url("slot.jpg") !important;
     background: none;
+    background-size: cover;
+    background-position: center;
     background-repeat: repeat-y;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -768,7 +772,7 @@ body, html {
     color: gray !important;
   }
   .navbar {
-    background-color: whitesmoke !important;
+    background-color: #222222 !important;
     z-index: 99;
   }
   .navbar .nav-item {
@@ -778,7 +782,7 @@ body, html {
   }
   .navbar .nav-item a {
     font-size: 30px;
-    color: black important;
+    color: white !important;
     opacity: 0.6;
   }
   .nav-item a {
